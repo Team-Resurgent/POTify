@@ -7,7 +7,7 @@ namespace POTify
 {
     internal class Program
     {
-        private const string Version = "1.0.0";
+        private const string Version = "1.0.1";
 
         private static bool ShowHelp = false;
         private static string Input = string.Empty;
@@ -27,6 +27,7 @@ namespace POTify
         {
             var options = new OptionSet {
                 { "i|input=", $"Input folder", i => Input = i },
+                { "o|output=", $"Input folder", o => Output = o },
                 { "h|help", "show help", h => ShowHelp = h != null },
             };
 

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "POTify": {
+      "commandName": "Project",
+      "commandLineArgs": "-i=D:\\Git\\NexgenRedux\\Artworkt -o=D:\\Git\\NexgenRedux\\out"
+    }
+  }
+}
